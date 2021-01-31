@@ -18,6 +18,7 @@ Los scripts del proyecto han sido desarrollados en C# en su totalidad. Empleando
 6. **Sistema de puntuación**, al realizar diferentes objetivos y/o recolectar diferentes objetos, aumenta la puntuación del jugador. Por el contrario, también se penaliza al jugador, quitando puntos, en el caso de que este sea alcanzado por los zombies.
 7. **Sistema de salud**, con el que el jugador puede ganar o perder vidas. Si es alcanzado por los zombies, pierde vidas. El jugador puede volver a ganar las vidas, recolectando los corazones dispersos por el mapa. Como máximo, sólo podrá tener tres corazones.
 8. **Cinemáticas y menús,** se han creado diferentes cinemáticas para el inicio del juego, final, y para el menú del *Game Over*, es decir, cuando el jugador pierde la partida.
+9. **Sensores**, se ha añadido una brújula, que guía al usuario hacia el norte. Esta solo se puede visualizar utilizando un teléfono móvil. Se encuentra situada justamente a la derecha de los corazones.
 
 # Aspectos destacables del proyecto
 
@@ -25,7 +26,7 @@ El videojuego desarrollado se ejecuta en un sistema de realidad virtual. Tiene m
 
 # Reparto de trabajo
 
-Hemos utilizado la aplicación discord para la comunicación entre los integrantes del grupo. No hemos seguido ninguna esquema de distribución para repartir las tareas del proyecto, trabajando todos en función de las necesidades de este, sin embargo mayoritariamente podría resumirse así:
+Hemos utilizado la aplicación *discord* para la comunicación entre los integrantes del grupo. No hemos seguido ninguna esquema de distribución para repartir las tareas del proyecto, trabajando todos en función de las necesidades de este, sin embargo mayoritariamente podría resumirse así:
 
 - **Tomás**: 
   - Aspectos jugables:
@@ -39,6 +40,7 @@ Hemos utilizado la aplicación discord para la comunicación entre los integrant
   - Cinemáticas
 - **David**:
   - IA del enemigo
+  - Sensores
 
 Cada miembro del equipo ha trabajado individualmente en sus tareas mientras que en Discord nos hemos reunido para trabajar de manera más colectiva. El desarrollo de los script ha sido desarrollado por todas las partes, ajustando los mismos a los requisitos jugables del proyecto.
 En un comienzo, decidimos utilizar un sistema de almacenamiento en la nube para almacenar el proyecto, similar a un sistema git, pero desarrollado por Unity (Unity Temas), sin embargo, debido a su coste y limitaciones de capacidad, hemos decidido dividirnos las tareas por separado, y posteriormente juntar todo el material en uno.

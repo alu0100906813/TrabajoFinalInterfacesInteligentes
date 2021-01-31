@@ -49,12 +49,12 @@ En un comienzo, decidimos utilizar un sistema de almacenamiento en la nube para 
 
 1. Imagen de la pantalla de carga al principio. También contiene la cinemática inicial, cuando el usuario pulsa el botón para empezar el juego.
 
-![imgGif1](GIFs\imgGif1.gif)
+![imgGif1](GIFs/imgGif1.gif)
 
 2. Comienzo del juego, donde recolectamos una de las piezas, una munición, y además disparamos al zombie:
 
-![imgGif2](GIFs\imgGif2.gif)
+![imgGif2](GIFs/imgGif2.gif)
 
 3. Última imagen, cuando ya tenemos todos los objetos recolectados, y nos vamos al coche final. Se muestra además, la cinemática final del juego:
 
-![imgGif3](GIFs\imgGif3.gif)
+![imgGif3](GIFs/imgGif3.gif)
